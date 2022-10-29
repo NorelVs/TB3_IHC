@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+
+.icono_hamburguesa span{
+  height: 3px;
+  display: block;
+  background-color: white;
+  margin-bottom: 6px;
+}
+
+.icono_hamburguesa{
+  float: right;
+  width: 30px;
+  position: relative;
+  top: 25px;
+  margin-left: 37px;
+  margin-right: 15px;
+}
+
+nav .Iniciarsesion{
+    color: white;
+    font-size: 24px;
+    line-height: 70px;
+    font-weight: 900;
+    margin-left: 770px;
+}
+
+/*nav .logo2{
+  color: white;
+  font-size: 24px;
+  line-height: 70px;
+  font-weight: 900;
+  margin-left: 28px;
+}*/
+
+nav ul li{
+    display: inline-block;
+    margin: 27px 37px;
+}
+nav ul{
+    float: left;
+    margin-left: 15px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 19px;
+    padding: 8px 6px;
+    text-decoration: none;
+    font-family:'Cambria';
+}
+
+nav ul li a:hover{
+    color: orange;
+}
+
+/******** Clau */
+
+.caja{
+    
+    height: 600px;
+    width: 1903px;
+    position: absolute;
+    background-image: url(fondonuevo.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#titulo{
+    font-size: 75px;
+   /* text-align: right;*/
+   margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Cambria';
+    margin-bottom: 5px;
+    margin-top: 39px;
+}
+
+.imagen{
+    margin-left: 60px;
+    margin-bottom: 20px;
+
+    padding: 0px;
+    width: 457px;
+    height: 350px;
+    position: relative;
+}
+
+.btnregistrate{
+    display: block;
+    width: 220px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Cambria';
+    font-weight: 700;
+    border-radius: 22px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.btnregistrate:hover{
+    background-color: orange;
+}
+
+/********* Isa*/
+.seccion-empezar {
+    position: relative;
+    background-color: #FDE086;
+    padding-bottom: 1rem;   /*ancho de la seccion amarilla desde arriba*/
+    padding-top: 1px;   /*ancho de la seccion amarilla desde abajo*/
+    text-align: center;
+    flex-direction: row ;
+    margin-top: 600px;
+    height: 600px;
+}
+
+.primer-par-imagen{
+    text-align: left;
+    display: flex;
+}
+
+.imagen-izquierda{
+    position: absolute;
+    margin-top: 100px;
+    width: 300px;
+    height: 400px;
+    margin-left: 80px;
+}
+
+.imagen-derecha{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 1420px;
+    width: 360px;
+    height: 400px;
+}
+
+.imagen-margen-izq{
+  margin-left: 19px;
+}
+
+.largo-boton-naranja { 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.botones {
+  border-radius: 5rem;
+  display: block;
+  font-weight: 400; /*grosor de la letra*/
+  line-height: 2; /*ancho del boton*/
+  text-align: center;
+  text-decoration: none;
+}
+
+.boton-naranja{ 
+  padding: .25rem 10rem .600rem; /*ajustar tamaño*/
+  background-color: #FF7100; /*color boton*/
+  color: #fff; /*color letra*/
+  font-size: 25px;
+}
+
+.centrar-texto{
+
+    padding-bottom: 25rem;  
+    padding-top: 1rem; 
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 600px;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h2 { /*seccion empezar, primera oracion*/
+
+  line-height: 2; /*interlineado*/
+  color: #5f5d5d;
+  margin-bottom: .75rem;
+  
+}
+
+.espacio-entre-componentes {
+  flex-direction: column;
+  row-gap: .75rem;   /*espacio de separacion*/
+}
+
+.ui-layout-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto-pequeno{
+  font-size: 0.75rem;
+  margin-bottom: 200px;
+}
+
+/******* Yhadira*/
+
+hr{
+    height: 0px;
+
+}
+
+#linea1{
+    position: relative;
+    margin-bottom: 0px;
+}
+
+#linea2{
+    position: relative;
+    margin-top: 86px;
+}
+
+#linea3{
+    position: relative;
+    margin-top: 0px;
+}
+
+#linea4{
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.links{
+    height: 400px;
+    width: auto;
+    position: relative;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.subtitulo{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color:gray;
+    margin-top: 30px;
+}
+
+.imagen1{
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.imagen1 #play{
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.imagen1 #qr{
+    margin-bottom: 0px;
+}
+
+.imagen1 #appstore{
+    margin-bottom: 40px;
+}
+
+#logoalfinal{
+    position:absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.pieseguridad{
+    position:absolute;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color:gray;
+    left: 400px;
+}
+
+.pieseguridad:hover{
+    color: black;
+}
+
+.pieterminos{
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color:gray;
+    left: 590px;
+}
+
+.pieterminos:hover{
+    color: black;
+}
+
+.piederechos{
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color:gray;
+    float: right;
+    left: 1335px;
+}
+
+.piederechos:hover{
+    color: black;
+}
+
+.pieprivacidad{
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color:gray;
+    float: right;
+    left: 910px;
+}
+
+.pieprivacidad:hover{
+    color: black;
+}
+
+.piesobrenosotros{
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color:gray;
+    float: right;
+    left: 1100px;
+}
+
+.piesobrenosotros:hover{
+    color: black;
+}
+
+.linea1{
+    height: 4px;
+    background-color:lightskyblue;
+}
+.linea2{
+    height: 4px;
+}
+
+hr{
+    height: 1px;
+}
+
+.piepagina{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/******* Seccion de segmentos objetivos*/
+
+.segmento-objetivo{
+    background-color: white;
+    width: auto;
+    height: 600px;
+}
+
+/*********** Seccion de universidades*/
+
+.caja1{
+
+    height: 480px;
+    background-color: #FDE086 ;
+    background-size: cover;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sub{
+    width: 1200px;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    background-position: center;
+    font-weight: bold;
+    font-family: 'Cambria';
+    color: black;
+    border-radius: 20px;
+    background-color: orange;
+    padding: 5px;
+    margin-bottom: 270px;
+}
+.imagenuni1{
+    padding: 20px;
+    display: flex;
+    gap: 300px;
+    position: absolute;
+    left: 0px;
+}
+.imagenuni2{
+    padding: 60px;
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    right: 0px;
+}
+.imagenuni3{
+    padding: 20px;
+    display: flex;
+    gap: 300px;
+    position: absolute;
+    left: 440px;
+    margin-top: 300px;
+}
+.imagenuni4{
+    padding: 60px;
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    right: 440px;
+    margin-top: 300px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between ;
+}
